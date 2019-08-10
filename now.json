@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "name": "api-graphql-jph",
+    "builds": [{
+        "src": "index.js",
+        "use": "@now/node-server"
+    }],
+    "routes": [
+      { "src": "/(.*)", "dest": "index.js" }
+  
+    ]
+  }
+
+  
+
